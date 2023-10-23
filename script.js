@@ -5,7 +5,7 @@ const output= document.querySelector(".output");
 const input= document.querySelector(".input");
 // regex expression return true if result maatch otherwise false
 // not accept ++ -- ** // ..
-const regex = /(\+\+|\+-|\+\*|\+\/|\+\.|--|\-\+|\-\*|\-\/|\-\.|\*\*|\*\+|\*\/|\*-|\*\.|\/\/|\/\+|\/-|\/\*|\/\.|\.\-|\.\*|\.\/|\.\+|\.\.)/g;
+const regex = /(\d+\.\d+\.|\+\+|\+-|\+\*|\+\/|\+\.|--|\-\+|\-\*|\-\/|\-\.|\*\*|\*\+|\*\/|\*-|\*\.|\/\/|\/\+|\/-|\/\*|\/\.|\.\-|\.\*|\.\/|\.\+|\.\.)/g;
 //console.log("ans==>",regex.test("+acbweerqwebc"));
 
 // initializing "empty string" to pass expression values
